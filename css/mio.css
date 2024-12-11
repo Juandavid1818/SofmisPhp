@@ -1,0 +1,52 @@
+.logo{
+    border-radius: 8px;
+    height: 60px;
+}
+.nombre_logo{
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.nombre_logo h1{
+    margin-top: 5px;
+}
+.diseño_titulos{
+    display: flex;
+    justify-content: space-between;
+}
+    /* Estilos personalizados para el select */
+.mostrar_productos {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #6e6e6e;
+    border-radius: 15px;
+    box-sizing: border-box;
+    -webkit-appearance: none; /* Eliminar los estilos de apariencia nativa */
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px 16px;
+    margin-bottom: 10px;
+    margin-top: 1rem;
+    
+}
+
+/* Estilos para las opciones del select */
+.mostrar_productos option {
+    padding: 10px;
+}
+.mostrar_productos:hover{
+    border: 1px solid #886CC0;
+}
+.imagen_lista_productos{
+    height: 100px;
+    width: 100px;
+    border: none;
+}
+.buton-derecha{
+    display: flex;
+    justify-content: right;
+}
